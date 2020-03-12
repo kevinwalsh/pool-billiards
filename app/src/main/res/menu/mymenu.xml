@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:title="Debug"
+        android:id= "@+id/debug"
+        android:numericShortcut="1"
+        android:alphabeticShortcut="a">
+    </item>
+    <item
+        android:title="Game State"
+        android:id= "@+id/gameinfo">
+    </item>
+    <item
+        android:title="Exit App"
+        android:id= "@+id/exitapp">
+    </item>
+</menu>

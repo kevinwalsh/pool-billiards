@@ -9,13 +9,42 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name="com.example.kevbilliards.activity.Menu"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.example.kevbilliards.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.kevbilliards.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.kevbilliards.activity.PoolActivity"
+            android:label="PoolActivity, static table" >
+        </activity>
+        <activity
+            android:name="com.example.kevbilliards.activity.HighFriction"
+            android:label="High Friction movement test" >
+        </activity>
+        <activity
+            android:name="com.example.kevbilliards.activity.GFXSurface"
+            android:label="test with GFX" >
+        </activity>
+        <activity
+            android:name="com.example.kevbilliards.activity.InfiniteBounce"
+            android:label="Frictionless surface test" >
+        </activity>
+
     </application>
 
 </manifest>
